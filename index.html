@@ -4,35 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MDHL</title>
+    <title>Mighty Ducks Hockey League</title>
     <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="shortcut icon" href="./assets/img/LogoMightyDucksFavicon-02.png" type="image/x-icon">
 </head>
 <body>
-    <header>
+      <header>
+        <div class="menulogo">
+            <img src="./assets/img/LogoMightyDucksFavicon-02.png" alt="Logo">
+        </div>
         <div class="tituloprincipal">
-            <p id="mighty">Mighty</p>
-            <p id="ducky">Ducky</p>
-            <p id="hockey">Hockey</p>
-            <p id="league">League</p>
+            <p class="animationtitulo">Mighty</p>
+            <p class="animationtitulo">Ducky</p>
+            <p class="animationtitulo">Hockey</p>
+            <p class="animationtitulo">League</p>
         </div>
-        <div>
-            <img class="banner" src="./assets/design1_image2.jpg" alt="banner de Hockey">
-            <h1> Up Coming Events</h1>
-            <img id="logo" src="./assets/Logo Mighty ducks-01.png" alt="Logo">
-        </div>
-    </header>
-    <nav class="botonera">
-        <a href="#">Home</a>
-        <a href="./about.html">About MDHL</a>
-        <a href="./contact.html">Contact</a>
-    </nav>
-    <section>
-        <h2>August 4</h2>
-        <p>MDSL Fundraiser</p>
-        <h2>August 16</h2>
-        <p>Season Kick-off: Meet the Teams</p>
-        <h2>September 1</h2>
-        <p>First Game of the Season (Check Game Schedule for details)</p>
-    </section>
+        <nav>
+            <a id="select" class="botonera" href="#">Home</a>
+            <a href="./schedule.html" class="botonera">Schedule</a>
+            <a href="./rules.html" class="botonera">Rules</a>
+            <a class="botonera" href="./about.html">About Us</a>
+            <a class="botonera" href="./contact.html">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <img src="./assets/img/bannerhockey.jpg" alt="banner hockey">
+        <h1 class="titulo"> Up Coming Events </h1>
+        <section class="content">
+            <div class="tarjeta">
+                <div>
+                    <h3>August 4</h3>
+                    <p class="text">MDSL Fundraiser</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div>
+                    <h3>August 16</h3>
+                    <p class="text">Season Kick-off: Meet the Teams</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div>
+                    <h3>September 1</h3>
+                    <p class="text">First Game of the Season</p>
+                    <a class="text" href="./schedule.html">(Check Game Schedule for details)</a>
+            </div>
+        </section>
+      </main>
 </body>
 </html>
